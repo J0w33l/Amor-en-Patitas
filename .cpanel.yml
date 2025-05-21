@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/amorenpa/public_html/Amor-en-patitas
+    - /bin/cp -R * $DEPLOYPATH
